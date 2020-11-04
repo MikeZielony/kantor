@@ -8,33 +8,36 @@ import {Exchange} from './models/exchange';
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
-export class AppComponent implements OnInit{
-
+export class AppComponent  {
   title = 'Currency-exchange';
   exchange: Exchange;
 
 
-
-
-
-
-  name = "this is my Exchange helper";
-  items = [
+ items = [
     {
-      title: "1 slide label",
-      summery: "1 slide label summery",
+      title: "this.exchange.rates[0].country",
+      summery:  "this.exchange.rates[0].rate",
       url: "https://via.placeholder.com/200?text=first"
     },
     {
-      title: "2 slide label",
-      summery: "2 slide label summery",
+      title: "this.exchange.rates[1].country",
+      summery:  "this.exchange.rates[1].rate",
       url: "https://via.placeholder.com/200?text=second"
     },
     {
-      title: "3 slide label",
-      summery: "3 slide label summery",
+      title: "this.exchange.rates[2].country",
+      summery:  "this.exchange.rates[2].rate",
       url: "https://via.placeholder.com/200?text=third"
     }
-  ];
+    ];
+
+  constructor(private service: RateServiceService) {
+  }
+
+  ngOnInit(): void {
+    this.service.getExchange('PLN').subscribe(result =>this.exchange = result);
+  }
 }
+
+
 

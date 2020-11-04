@@ -1,2 +1,9 @@
-<hello name="{{ name }}"></hello>
+<div> {{ this.exchange.date }} Base {{this.exchange.base}}"></div>
 <app-carousel [items]="items"></app-carousel>
+
+
+
+<div>{{this.exchange.rates[0].country}} : {{this.exchange.rates[0].rate}}</div>
+<div>{{this.exchange.rates[1].country}} : {{this.exchange.rates[1].rate}}</div>
+<div>{{this.exchange.rates[2].country}} : {{this.exchange.rates[2].rate}}</div>
+
