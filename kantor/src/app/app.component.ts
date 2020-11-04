@@ -1,13 +1,24 @@
-import { Component, ChangeDetectionStrategy } from "@angular/core";
+import {Component, OnInit} from '@angular/core';
+import {RateServiceService} from './services/rate-service.service';
+import {Exchange} from './models/exchange';
 
-declare const $: any;
+
 @Component({
   selector: "my-app",
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
-export class AppComponent {
-  name = "Angular";
+export class AppComponent implements OnInit{
+
+  title = 'Currency-exchange';
+  exchange: Exchange;
+
+
+
+
+
+
+  name = "this is my Exchange helper";
   items = [
     {
       title: "1 slide label",
@@ -26,3 +37,4 @@ export class AppComponent {
     }
   ];
 }
+
