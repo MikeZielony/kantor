@@ -13,7 +13,7 @@ export class ChartComponent implements OnInit {
   exchange: Exchange;
   dataChart: DataChart;
 
-  title = `Currency:  to`;
+  title = `Currency:  to PLN `;
   type = 'LineChart';
   data = [];
   columnNames = ['Data', 'values'];
@@ -21,7 +21,8 @@ export class ChartComponent implements OnInit {
   width = 1068;
   height = 800;
 
-  constructor(private rateservice: RateServiceService) {
+
+  constructor(private rateService: RateServiceService) {
   }
 
   ngOnInit(): void {
@@ -29,16 +30,16 @@ export class ChartComponent implements OnInit {
   }
 
   getHistoricalRateUsingSubscribe(): void {
-    this.rateservice.getHistoricalRate("PLN").subscribe((data: DataChart) => {
-      this.dataChart = data;
-      const dates = Object.keys(this.dataChart.rates);
-      const rates = Object.values(this.dataChart.rates);
 
-      for (let i = 0; i < rates.length; i++) {
-        this.data.push([dates[i], Object.values(rates[i])[0]])
-      }
-      this.data.sort(((a: number, b: number) => a > b ? 1 : -1));
-      console.log(this.data);
-    })
+      this.rateService.getHistoricalRate("PLN", "GBP").subscribe((data: DataChart) => {
+        this.dataChart = data;
+        const dates = Object.keys(this.dataChart.rates);
+        const rates = Object.values(this.dataChart.rates);
+
+        for (let i = 0; i < rates.length; i++) {
+          this.data.push([dates[i], Object.values(rates[i])[0]])
+        }
+        this.data.sort(((a: number, b: number) => a > b ? 1 : -1));
+      })
   }
 }

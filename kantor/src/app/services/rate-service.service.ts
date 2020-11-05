@@ -35,8 +35,8 @@ export class RateServiceService {
         return tempObject;
       }));
   }
-  getHistoricalRate(base: string): any {
-    return this.http.get(`https://api.exchangeratesapi.io/history?start_at=2020-09-10&end_at=2020-10-20&base=${base}&symbols=CHF`);
+  getHistoricalRate(base: string, rate: string): any {
+    return this.http.get(`https://api.exchangeratesapi.io/history?start_at=2020-09-10&end_at=2020-11-05&base=${base}&symbols=${rate}`);
   }
 
 }

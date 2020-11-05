@@ -20,19 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49442bd4-99cb-4b38-a37e-e697dc771fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kantor/src/app/chart/chart.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kantor/src/app/chart/chart.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kantor/src/app/chart/chart.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kantor/src/app/chart/chart.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kantor/src/app/models/dataChart.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kantor/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kantor/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kantor/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kantor/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kantor/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kantor/src/app/chart/chart.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/chart/chart.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kantor/src/app/services/rate-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/services/rate-service.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kantor/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
