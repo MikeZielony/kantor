@@ -1,4 +1,5 @@
 import { Component, OnInit , ChangeDetectionStrategy , Input } from "@angular/core";
+import {Exchange} from "../models/exchange";
 declare const $:any;
 @Component({
   selector: "app-carousel",
@@ -9,6 +10,7 @@ declare const $:any;
 export class CarouselComponent  {
 
   @Input() items = [];
+  // @Input() exchange: Exchange;
 
 
   ngAfterViewInit(){

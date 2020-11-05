@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "kantor"
+    }
+  },
+  "defaultProject": "kantor",
+  "cli": {
+    "analytics": false
+  }
 }
