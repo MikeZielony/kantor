@@ -15,7 +15,7 @@ export class RateServiceService {
   }
 
   getExchange(base: string): any {
-    return this.http.get(`${this.apiUrl}/latest?base=${base}&symbols=USD,EUR,CHF`).pipe(
+    return this.http.get(`${this.apiUrl}/latest?base=${base}&symbols=GBP,USD,EUR,CHF`).pipe(
       map(result => {
         let rates: Rate[] = [];
 
