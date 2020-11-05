@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cbbee64-325e-45ea-9303-5dee39af8468" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/kantor/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kantor/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kantor/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kantor/src/app/carousel/carousel.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/carousel/carousel.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kantor/src/app/carousel/carousel.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/carousel/carousel.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kantor/src/app/models/rate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/models/rate.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jpBhyPEir14KfvWv9pAAnqdFuz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/kantor/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kantor/src/app/services" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cbbee64-325e-45ea-9303-5dee39af8468" name="Default Changelist" comment="" />
+      <created>1604491275593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604491275593</updated>
+      <workItem from="1604491276703" duration="12950000" />
+      <workItem from="1604519842426" duration="219000" />
+      <workItem from="1604520072712" duration="196000" />
+      <workItem from="1604520545078" duration="57000" />
+      <workItem from="1604550849884" duration="1867000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="957" y="244" key="git4idea.branch.GitSmartOperationDialog" timestamp="1604551402935">
+      <screen x="0" y="23" width="1920" height="1004" />
+    </state>
+    <state x="957" y="244" key="git4idea.branch.GitSmartOperationDialog/0.23.1920.1004@0.23.1920.1004" timestamp="1604551402935" />
+  </component>
+</project>
