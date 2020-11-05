@@ -4,10 +4,10 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item" *ngFor="let item of items;let index = index;let isFirst = first" [ngClass]="{active:isFirst}">
-      <img [src]="item.url" class="d-block w-100" [alt]="item.title">
+      <img [src]="item.flagUrl" class="d-block w-100" [alt]="item.country">
       <div class="carousel-caption d-none d-md-block">
-        <h5 [textContent]="item.title"></h5>
-        <p [textContent]="item.symmery"></p>
+        <h5 [textContent]="item.country"></h5>
+        <p [textContent]="item.rate"></p>
       </div>
     </div>
   </div>

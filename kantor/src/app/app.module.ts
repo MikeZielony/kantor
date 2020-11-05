@@ -5,9 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, HttpClientModule,],
   declarations: [ AppComponent, HelloComponent, CarouselComponent ],
   bootstrap:    [ AppComponent ]
 })

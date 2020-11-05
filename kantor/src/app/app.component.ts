@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {RateServiceService} from './services/rate-service.service';
 import {Exchange} from './models/exchange';
+import {RateServiceService} from "./services/rate-service.service";
 
 
 @Component({
@@ -10,31 +10,22 @@ import {Exchange} from './models/exchange';
 })
 export class AppComponent implements OnInit{
 
-  title = 'Currency-exchange';
   exchange: Exchange;
-
-
-
-
-
+  title = 'Currency-exchange';
 
   name = "this is my Exchange helper";
-  items = [
-    {
-      title: "1 slide label",
-      summery: "1 slide label summery",
-      url: "https://via.placeholder.com/200?text=first"
-    },
-    {
-      title: "2 slide label",
-      summery: "2 slide label summery",
-      url: "https://via.placeholder.com/200?text=second"
-    },
-    {
-      title: "3 slide label",
-      summery: "3 slide label summery",
-      url: "https://via.placeholder.com/200?text=third"
-    }
-  ];
+
+
+  constructor(private rateService: RateServiceService) {
+  }
+
+  ngOnInit(): void {
+    this.rateService.getExchange('PLN').subscribe( result => {
+      this.exchange = result;
+      console.log(this.exchange);
+
+    });
+  }
+
 }
 

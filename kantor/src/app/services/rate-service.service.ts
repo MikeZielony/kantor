@@ -23,7 +23,7 @@ export class RateServiceService {
           const rateList = Object.values(result.rates);
           const currency = Object.keys(result.rates);
           for (let i = 0; i < currency.length; i++) {
-            const rateObject: Rate = {country: currency[i], rate: +rateList[i]};
+            const rateObject: Rate = {country: currency[i], rate: +rateList[i], flagUrl: `assets/images/${currency[i]}.jpg`};
             rates.push(rateObject);
           }
         }
