@@ -36,7 +36,9 @@ export class RateServiceService {
       }));
   }
   getHistoricalRate(base: string, rate: string): any {
-    return this.http.get(`https://api.exchangeratesapi.io/history?start_at=2020-09-10&end_at=2020-11-05&base=EUR&symbols=PLN`);
+    let start:string = "2019-11-05";
+    let finish:string = "2020-11-05";
+    return this.http.get(`https://api.exchangeratesapi.io/history?start_at=${start}&end_at=${finish}&base=EUR&symbols=PLN`);
   }
 
 }
