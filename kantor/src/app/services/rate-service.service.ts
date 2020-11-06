@@ -15,7 +15,7 @@ export class RateServiceService {
   }
 
   getExchange(base: string): any {
-    return this.http.get(`${this.apiUrl}/latest?base=${base}&symbols=GBP,USD,EUR,CHF`).pipe(
+    return this.http.get(`${this.apiUrl}/latest?base=${base}&symbols=GBP,USD,EUR,CHF,JPY`).pipe(
       map(result => {
         let rates: Rate[] = [];
 
@@ -36,7 +36,7 @@ export class RateServiceService {
       }));
   }
   getHistoricalRate(base: string, rate: string): any {
-    return this.http.get(`https://api.exchangeratesapi.io/history?start_at=2020-09-10&end_at=2020-11-05&base=${base}&symbols=${rate}`);
+    return this.http.get(`https://api.exchangeratesapi.io/history?start_at=2020-09-10&end_at=2020-11-05&base=EUR&symbols=PLN`);
   }
 
 }

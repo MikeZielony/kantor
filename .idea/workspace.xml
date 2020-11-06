@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49442bd4-99cb-4b38-a37e-e697dc771fc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kantor/src/app/chart/chart.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/chart/chart.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kantor/src/assets/images/JPY.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kantor/src/app/services/rate-service.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/kantor/src/app/services/rate-service.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
